@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guest Book</title>
+    <link rel="stylesheet" href="./css/flowerCatalog.css" />
+  </head>
+  <body>
+    <div class="flowerPageHeading">
+      <span class="subHeading" style="border-bottom: none;">
+        <a href="./index.html">&lt;&lt;</a>Guest Book</span
+      >
+    </div>
+
+    <h2>Leave A Comment</h2>
+    <br />
+    <form method="POST" action="saveComments">
+      <table>
+        <tr>
+          <td><label for="name">Name : </label></td>
+          <td><input type="text" name="name" size="42" /></td>
+        </tr>
+        <tr>
+          <td><label for="comment">Commend : </label></td>
+          <td><textarea name="comment" cols="40" rows="5"></textarea></td>
+        </tr>
+      </table>
+
+      <input type="submit" id="submit" />
+    </form>
+    <br /><br />
+    <hr />
+
+    <div id="feedbacks">
+      __FEEDBACK__
+    </div>
+  </body>
+</html>
