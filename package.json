@@ -19,7 +19,6 @@
     "url": "https://github.com/step-batch-7/flower-catalog-nooranasrin/issues"
   },
   "homepage": "https://github.com/step-batch-7/flower-catalog-nooranasrin#readme",
-  "devDependencies": {},
   "dependencies": {
     "express": "^4.17.1",
     "mocha": "^7.0.1",
