@@ -1,29 +1,29 @@
 {
-  "name": "flower-catalog-nooranasrin",
+  "name": "flowerCatalog",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "directories": {
     "lib": "lib"
   },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "nyc mocha"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/step-batch-7/flower-catalog-nooranasrin.git"
+    "url": "git+https://github.com/nooranasrin/flowerCatalogUsingSqlite.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/step-batch-7/flower-catalog-nooranasrin/issues"
+    "url": "https://github.com/nooranasrin/flowerCatalogUsingSqlite/issues"
   },
-  "homepage": "https://github.com/step-batch-7/flower-catalog-nooranasrin#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mocha": "^7.0.1",
-    "sinon": "^8.1.1",
-    "sqlite3": "^4.2.0",
-    "supertest": "^4.0.2"
-  }
+  "homepage": "https://github.com/nooranasrin/flowerCatalogUsingSqlite#readme"
 }
